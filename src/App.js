@@ -1,15 +1,15 @@
 import './App.css';
 import Header from './Header';
+import Footer from './Footer';
+import Content from './Content';
 
 function App() {
-  function handleNameChanges(){
-    let names = ["Salah","Bob","Karina"];
-    let name = names[Math.floor(Math.random() * 3)];
-    return name;
-  }
+
   return (
     <div className="App">
       <Header />
+      <Content />
+      <Footer />
     </div>
   );
 }
