@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header title="NIROSINOGA"/>
+      <Header />
       <Content />
       <Footer />
     </div>
