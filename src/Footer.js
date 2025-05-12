@@ -1,7 +1,7 @@
-const Footer = () =>{
+const Footer = ({length}) =>{
     return (
         <footer>
-            Yo, I footer here man hola
+            <p>{length} list {length === 1 ? "item" : "items"}</p>
         </footer>
     )
 }
