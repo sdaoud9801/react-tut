@@ -1,8 +1,17 @@
+import { LineItem } from './lineItem.js';
+
 const ItemList = ({ items, handleCheck, handleDelete}) => {
     return(
-        <div>
+        <ul>
+        {items.length ? (items.map((item)=> (
+            <LineItem 
+                item={item}
+                handleCheck={handleCheck}
+                handleDelete={handleDelete}
+            />
 
-        </div>
+        ))) : (<p>Your list is empty me broski</p>)}
+        </ul>
     )
 }
 
