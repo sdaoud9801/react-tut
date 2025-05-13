@@ -1,4 +1,4 @@
-import { LineItem } from './lineItem.js';
+import LineItem from './lineItem';
 
 const ItemList = ({ items, handleCheck, handleDelete}) => {
     return(
